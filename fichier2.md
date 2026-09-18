@@ -1,7 +1,7 @@
-# Documentation du Système - Projet Kafka
+# Documentation du Système - Projet mbog
 
 ## 1. Présentation Générale
-Le projet **Kafka** repose sur une architecture C++20 hautement modulaire, multi-threadée et axée sur les performances temps réel.
+Le projet **mbog** repose sur une architecture C++20 hautement modulaire, multi-threadée et axée sur les performances temps réel.
 Ce document constitue la référence technique principale pour l'équipe de développement et les collaborateurs externes.
 
 ## 2. Architecture Logicielle
