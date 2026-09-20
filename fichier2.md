@@ -10,7 +10,7 @@ L'architecture du système repose sur un modèle en **couches strictes et indép
 
 +-----------------------------------------------------------+|               Interface Applicative (API)                 |+-----------------------------------------------------------+| (Appels / Événements)+-----------------------------------------------------------+|              Moteur d'Exécution (Kernel)                  |+-----------------------------------------------------------+/                                           / (Ordonnancement)                            \ (I/O Asynchrones)+---------------------------+       +-----------------------+|  Sous-système de Stockage |       |     Couche Réseau     |+---------------------------+       +-----------------------+
 
-### 2.1. Couche Réseau (Network Layer)
+### 2.1. Couche Réseau 
 Cette couche est responsable de la communication avec le monde extérieur. Elle abstrait la complexité des protocoles de transport et maximise le débit de données.
 
 * **Gestion des connexions asynchrones :** Utilisation d'un modèle d'I/O non bloquant basé sur des multiplexeurs natifs (comme `epoll` sous Linux, `kqueue` sous macOS ou `IOCP` sous Windows). Cela permet de gérer des dizaines de milliers de connexions simultanées avec un nombre minimal de threads système.
