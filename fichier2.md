@@ -85,3 +85,6 @@ Le projet s'étale sur un cycle intensif de 4 mois (16 semaines) réparti en 8 s
 - Chaque modification doit faire l'objet d'un commit atomique (un seul sujet par commit).
 - Les messages de commit doivent respecter le format *Conventional Commits* (`feat:`, `fix:`, `perf:`, `docs:`).
 - Aucun push direct sur la branche `main` n'est autorisé ; passage obligatoire par une Pull Request avec relecture.
+
+## economie
+
